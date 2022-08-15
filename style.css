@@ -1,39 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
+.cont {
+    padding-top: 250px;
 }
 
-body {
-    font-family: 'Ubuntu', sans-serif;
+.instagram{
+    cursor: pointer;
 }
 
-nav {
-    height: 80px;
-    background-color: #DEB6AB;
+.twitter{
+    cursor: pointer;
 }
 
-h2 {
-    line-height: 80px;
-    display: inline-block;
-    margin-left: 40px;
+.github {
+    cursor: pointer;
 }
 
-ul {
-    float: right;
-    margin-right: 40px;
-    list-style: none;
+.linkedin {
+    cursor: pointer;
 }
 
-ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 10px;
+.instagram:hover{
+    fill:  #833AB4;
 }
 
-ul li a {
+.twitter:hover {
+    fill: #405DE6;
+}
+
+.github:hover {
+    fill: #FD1D1D;
+}
+
+.linkedin:hover {
+    fill: #0072b1;
+}
+
+a {
+    color: black;
     text-decoration: none;
-    font-weight: lighter;
-    color: #AC7088;
 }
