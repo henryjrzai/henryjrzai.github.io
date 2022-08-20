@@ -1,21 +1,29 @@
+.container-fluid   {
+    background: rgb(2,0,36);    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
 .cont {
     padding-top: 250px;
 }
 
 .instagram{
     cursor: pointer;
+    fill: white;
 }
 
 .twitter{
     cursor: pointer;
+    fill: white;
 }
 
 .github {
     cursor: pointer;
+    fill: white;
 }
 
 .linkedin {
     cursor: pointer;
+    fill: white;
 }
 
 .instagram:hover{
@@ -37,4 +45,18 @@
 a {
     color: black;
     text-decoration: none;
+}
+
+.footer {
+    padding-bottom: 261px;
+}
+
+@media (max-width: 575.98px) { 
+    .footer {
+        padding-bottom: 268.5px;
+    }
+}
+
+.bayangan {
+    text-shadow: 6px 5px 11px #000000;
 }
