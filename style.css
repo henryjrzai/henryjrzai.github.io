@@ -1,6 +1,6 @@
 .container-fluid   {
     background: rgb(31,52,68);
-    background: linear-gradient(90deg, rgba(31,52,68,1) 4%, rgba(72,104,124,1) 54%, rgba(164,188,199,1) 97%);
+    background: linear-gradient(90deg, rgba(31,52,68,1) 0%, rgba(75,104,124,1) 100%);
 }
 .cont {
     padding-top: 250px;
