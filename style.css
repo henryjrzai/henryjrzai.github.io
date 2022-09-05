@@ -1,62 +1,67 @@
-.container-fluid   {
-    background: rgb(31,52,68);
-    background: linear-gradient(90deg, rgba(31,52,68,1) 0%, rgba(75,104,124,1) 100%);
-}
-.cont {
-    padding-top: 250px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+  /* margin: 0; */
+  background: rgb(31,52,68);
+  background: linear-gradient(90deg, rgba(31,52,68,1) 0%, rgba(75,104,124,1) 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.instagram{
-    cursor: pointer;
-    fill: white;
+.container {
+  margin-top: 14.375em;
+  width: 100%;
+  text-align: center;
 }
 
-.twitter{
-    cursor: pointer;
-    fill: white;
+.container-logo {
+  width: 100%;
 }
 
-.github {
-    cursor: pointer;
-    fill: white;
+h1 {
+  margin-top: -15px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.125em;
+  color: aliceblue;
 }
 
-.linkedin {
-    cursor: pointer;
-    fill: white;
+p {
+  margin-top: -2.5em;
+  color: azure;
+}
+.logo {
+  width: 15.625em;
+  margin: auto;
 }
 
-.instagram:hover{
-    fill:  #833AB4;
+a{
+  margin: 1.5em;
 }
 
-.twitter:hover {
-    fill: #405DE6;
+
+.bi {
+  cursor: pointer;
+  fill: white;
 }
 
-.github:hover {
-    fill: #FD1D1D;
+.bi-instagram:hover{
+  fill:  #833AB4;
 }
 
-.linkedin:hover {
-    fill: #0072b1;
+.bi-twitter:hover {
+  fill: #405DE6;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+.bi-github:hover {
+  fill: #000000;
 }
 
-.footer {
-    padding-bottom: 261px;
-}
-
-@media (max-width: 575.98px) { 
-    .footer {
-        padding-bottom: 400px;
-    }
+.bi-linkedin:hover {
+  fill: #0072b1;
 }
 
 .bayangan {
-    text-shadow: 6px 5px 11px #000000;
+  text-shadow: 6px 5px 11px #000000;
 }
